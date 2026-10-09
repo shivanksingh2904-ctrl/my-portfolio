@@ -1,0 +1,41 @@
+[
+  {
+    "name": "PantryPulse",
+    "description": "A grocery and pantry management app to track items, expiry dates and prices, discover ingredient-based recipes, and review food-waste analytics.",
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "Pandas",
+      "SQLite"
+    ],
+    "github": "https://github.com/shivanksingh2904-ctrl/PantryPulse",
+    "demo": "https://pantrypulse-tlaaavgqpk89yx33zelxh4.streamlit.app/",
+    "features": [
+      "Pantry inventory and expiry tracking",
+      "Ingredient-based recipe recommendations",
+      "Food-waste analytics and estimated value at risk",
+      "Ingredient aliases such as dahi and yogurt",
+      "Email alerts where supported by the application"
+    ]
+  },
+  {
+    "name": "DocuMind",
+    "description": "A multi-PDF question-answering app that retrieves relevant passages and provides answers with source filenames and page references.",
+    "technologies": [
+      "Python",
+      "Streamlit",
+      "pypdf",
+      "BM25",
+      "Optional Anthropic API / Claude"
+    ],
+    "github": "https://github.com/shivanksingh2904-ctrl/shivanksingh2904-ctrl-DocuMind",
+    "demo": "https://shivanksingh2904-ctrl-documind-6yl7xfnqwas8appvbwgaqk5.streamlit.app/",
+    "features": [
+      "Query multiple PDF documents",
+      "BM25 passage retrieval",
+      "Source filename and page-level citations",
+      "Extractive fallback without an API key",
+      "Scanned PDFs requiring OCR are not supported"
+    ]
+  }
+]

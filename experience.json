@@ -1,0 +1,27 @@
+[
+  {
+    "company": "Codec Technologies",
+    "role": "Artificial Intelligence Intern",
+    "work_mode": "Online",
+    "start_date": "June 2025",
+    "end_date": "July 2025",
+    "responsibilities": [
+      "Worked on real-world AI projects, applying machine learning techniques and researching suitable approaches to meet project objectives.",
+      "Carried out data preprocessing, model evaluation, and AI deployment tasks through project-based learning under industry mentorship."
+    ]
+  },
+  {
+    "company": "Geeks of Gurukul (GOG)",
+    "role": "Data Analyst Intern",
+    "start_date": "ADD VERIFIED START DATE",
+    "end_date": "ADD VERIFIED END DATE",
+    "description": "Data analytics and project-based learning. Add only verified responsibilities, projects, tools, and outcomes before publishing.",
+    "details_to_confirm": [
+      "Dates",
+      "Actual tasks",
+      "Project names",
+      "Tools used",
+      "Verifiable outcomes"
+    ]
+  }
+]

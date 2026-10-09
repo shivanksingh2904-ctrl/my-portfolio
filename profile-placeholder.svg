@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-label="Profile photo placeholder">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111827"/><stop offset="1" stop-color="#202441"/></linearGradient><linearGradient id="accent"><stop stop-color="#45E6D0"/><stop offset="1" stop-color="#8B7CFF"/></linearGradient></defs>
+<rect width="600" height="750" fill="url(#bg)"/><circle cx="300" cy="250" r="132" fill="#293449"/><path d="M95 750c14-174 83-267 205-267s191 93 205 267" fill="#293449"/><circle cx="300" cy="250" r="132" fill="none" stroke="url(#accent)" stroke-width="3" opacity=".7"/><text x="300" y="685" text-anchor="middle" fill="#E8EDF7" font-family="Arial,sans-serif" font-size="28" letter-spacing="5">ADD YOUR PHOTO</text><text x="300" y="720" text-anchor="middle" fill="#9BA9BD" font-family="Arial,sans-serif" font-size="16">Replace with assets/profile.png</text>
+</svg>
