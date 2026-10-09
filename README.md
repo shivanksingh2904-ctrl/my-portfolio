@@ -1,89 +1,160 @@
-# Shivank Singh — Premium Developer Portfolio
+# Shivank Singh | Developer Portfolio
 
-A responsive, static portfolio website with a Midnight Obsidian + Electric Mint + Royal Violet visual system. It uses HTML, CSS, and vanilla JavaScript; no build step or package installation is required.
+### Python Developer • Aspiring Software Development Engineer
 
-## Quick start
+🌐 **Live Portfolio:** [View My Portfolio](https://shivanksingh2904-ctrl.github.io/my-portfolio/)
 
-1. Extract the ZIP.
-2. Replace the profile placeholder with your real photo:
-   - Save your real image as `assets/profile.png`.
-   - The page will automatically use it. Until then, it displays `assets/profile-placeholder.svg`.
-3. Open `data/site-config.json` and update your email, LinkedIn URL, college/institution, education dates, and GOG dates.
-4. Open `index.html` in your browser, or run a local static server:
+Welcome to my personal developer portfolio! This website showcases my technical skills, projects, internship experience, education, and journey as an aspiring software developer.
 
-   ```bash
-   # From this folder, with Python installed
-   python -m http.server 8000
-   ```
+I'm a Computer Science Engineering student passionate about Python development, data analytics, artificial intelligence, and building practical software solutions. My goal is to strengthen my software engineering fundamentals and build reliable, scalable applications.
 
-   Then visit `http://localhost:8000`.
+---
 
-## Personal details to complete before publishing
+## 🚀 About Me
 
-- `data/site-config.json`
-  - `email`
-  - `linkedin`
-  - `education_institution`
-  - `education_start_year`
-  - `education_expected_graduation`
-  - `gog_start_date`
-  - `gog_end_date`
-- `index.html`
-  - The education card currently uses generic wording; replace it with the exact institution and degree details when confirmed.
-  - GOG experience dates are visibly marked for confirmation. Add only responsibilities, projects, tools, and outcomes that you can verify.
-- Add the actual profile photo at `assets/profile.png`. The source prompt mentioned a Windows path, but that file was not included with the prompt attachment, so this project uses an explicit placeholder instead of pretending to include the real photo.
+* 💻 Focused on Python development and software engineering.
+* 🗄️ Learning and practicing SQL, database management, and data processing.
+* 🤖 Exploring Artificial Intelligence, Generative AI, and data-driven solutions.
+* 🛠️ Interested in solving real-world problems through practical projects.
+* 🎯 Career goal: Python Developer / Software Development Engineer.
 
-## Deploy free
+## 🧰 Technical Skills
 
-### GitHub Pages
-1. Create a repository on GitHub and upload the contents of this folder (the files inside the folder, not the ZIP itself).
-2. Open repository **Settings → Pages**.
-3. Under build and deployment, choose **Deploy from a branch**.
-4. Select your main branch and `/ (root)`, then save.
-5. Wait for GitHub Pages to publish and open the URL shown in the Pages settings.
+| Category         | Technologies                                                |
+| ---------------- | ----------------------------------------------------------- |
+| Programming      | Python, SQL                                                 |
+| Databases        | MySQL, SQLite                                               |
+| Data & AI        | Pandas, Data Analysis, Artificial Intelligence fundamentals |
+| APIs & Data      | REST APIs, JSON                                             |
+| Web Technologies | HTML, CSS, JavaScript                                       |
+| Tools            | Git, GitHub, Streamlit                                      |
 
-### Netlify
-1. Sign in to Netlify and choose **Add new site → Deploy manually**.
-2. Drag the extracted project folder into the deployment drop zone, or connect the GitHub repository.
-3. No build command is required. Publish directory is the project root.
+## 💼 Internship Experience
 
-## Project structure
+### Data Analyst Intern — Geeks of Gurukul
+
+* Developing practical data analytics skills through internship learning and project-based work.
+* Focused on understanding data, extracting insights, and presenting information effectively.
+
+### Artificial Intelligence Intern — Codec Technologies
+
+*Online Internship · June 2026*
+
+* Gaining exposure to artificial intelligence concepts and practical applications.
+* Building knowledge of AI workflows and problem-solving approaches.
+
+*Note: Update these descriptions and dates to match your actual responsibilities and internship records.*
+
+## 🛠️ Featured Projects
+
+### 1. PantryPulse
+
+A project featured in my portfolio to demonstrate practical development and problem-solving skills.
+
+* **Technologies:** Refer to the project repository.
+* **GitHub:** [View Repository](https://github.com/)
+* **Live Demo:** Add your verified live project URL.
+
+### 2. DocuMind
+
+A project featured in my portfolio to showcase application development and technical learning.
+
+* **Technologies:** Refer to the project repository.
+* **GitHub:** [View Repository](https://github.com/)
+* **Live Demo:** Add your verified live project URL.
+
+*Replace the project links above with the actual repository and deployment URLs.*
+
+## 🎓 Education
+
+**Computer Science Engineering**
+
+* Institution: Add your college name.
+* Graduation year: Add your expected graduation year.
+
+## 🌐 Connect With Me
+
+* **Portfolio:** [shivanksingh2904-ctrl.github.io/my-portfolio](https://shivanksingh2904-ctrl.github.io/my-portfolio/)
+* **GitHub:** [shivanksingh2904-ctrl](https://github.com/shivanksingh2904-ctrl)
+* **LinkedIn:** Add your LinkedIn profile URL.
+* **Email:** Add your professional email address.
+
+## 💻 Built With
+
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* JSON for portfolio configuration and content
+* GitHub Pages for hosting
+
+## ✨ Portfolio Highlights
+
+* Premium dark interface with Electric Mint and Royal Violet accents.
+* Responsive design for desktop, tablet, and mobile.
+* Interactive navigation and animated visual elements.
+* Dedicated sections for projects, skills, experience, and education.
+* Accessible keyboard focus states and reduced-motion support.
+* Free static hosting through GitHub Pages.
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/shivanksingh2904-ctrl/my-portfolio.git
+```
+
+Move into the project directory:
+
+```bash
+cd my-portfolio
+```
+
+Start a local server using Python:
+
+```bash
+python -m http.server 8000
+```
+
+Open the following URL in your browser:
 
 ```text
-shivank-premium-portfolio/
+http://localhost:8000
+```
+
+No package installation or build step is required for the static portfolio.
+
+## 📂 Project Structure
+
+```text
+my-portfolio/
 ├── index.html
 ├── styles.css
 ├── script.js
 ├── assets/
 │   ├── favicon.svg
-│   └── profile-placeholder.svg
+│   ├── profile-placeholder.svg
+│   └── profile.png
 └── data/
     ├── site-config.json
     ├── projects.json
     └── experience.json
 ```
 
-## Design and accessibility
+## 📌 Future Goals
 
-- Responsive desktop, tablet, and mobile layouts.
-- Keyboard-visible focus states.
-- Mobile navigation with accessible expanded state.
-- Reduced-motion preference support.
-- Section reveal animations use `IntersectionObserver` with a no-animation fallback.
-- External links use `rel="noopener noreferrer"`.
-- No fabricated skill scores, GitHub statistics, internship metrics, or endorsements.
+* Build more Python and SQL projects.
+* Explore AI and Generative AI applications.
+* Improve problem-solving and data structures skills.
+* Develop practical, scalable software solutions.
+* Contribute to collaborative development projects.
 
-## Testing checklist
+---
 
-- [ ] Replace the placeholder with your real photo as `assets/profile.png`.
-- [ ] Update email and LinkedIn URL in `data/site-config.json`.
-- [ ] Verify institution and education dates.
-- [ ] Confirm GOG internship dates, tasks, projects, and tools.
-- [ ] Test all project repository and live-demo links.
-- [ ] Check the mobile menu and all navigation anchors.
-- [ ] Check contact links after adding real contact details.
-- [ ] Test on mobile and desktop widths.
-- [ ] Check browser console for errors.
-- [ ] Deploy and verify the published URL.
+### Thanks for Visiting! 👋
 
-The files were generated as a static implementation. A live browser-based cross-device test and deployment were not performed in this environment.
+I'm always interested in learning, building, and connecting with people in the technology community.
+
+**Let's connect and build something meaningful!**
+
+⭐ If you find my work interesting, explore my repositories and follow my development journey.
